@@ -1,4 +1,4 @@
-package cloud.autotests.config;
+package ru.apolonov.config.project;
 
 import org.aeonbits.owner.Config;
 

@@ -65,8 +65,11 @@ tasks.withType(Test) {
     }
 }
 
+/*
 task demowebshop(type: Test) {
     useJUnitPlatform {
         includeTags 'demowebshop'
     }
 }
+
+ */

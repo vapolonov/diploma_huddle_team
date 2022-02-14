@@ -1,6 +1,6 @@
-package cloud.autotests.helpers;
+package ru.apolonov.helpers;
 
-import cloud.autotests.config.Project;
+import ru.apolonov.config.project.Project;
 import com.codeborne.selenide.Selenide;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;

@@ -1,13 +1,15 @@
-package cloud.autotests.config.demowebshop;
+package ru.apolonov.config.huddleteam;
 
 import org.aeonbits.owner.Config;
+
 
 @Config.LoadPolicy(Config.LoadType.MERGE)
 @Config.Sources({
         "system:properties",
-        "classpath:config/demowebshop/app.properties"
+        "classpath:config/huddleteam/huddle.properties"
 })
-public interface AppConfig extends Config {
+
+public interface HuddleAppConfig extends Config {
 
     String webUrl();
     String apiUrl();
@@ -15,3 +17,4 @@ public interface AppConfig extends Config {
     String userPassword();
 
 }
+
